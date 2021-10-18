@@ -168,6 +168,15 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column !important;
     margin: 5px !important;
   }
+  #know_more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #know_more_img{
+    width: 100%;
+    height: 100%;
+  }
 }
 
 
