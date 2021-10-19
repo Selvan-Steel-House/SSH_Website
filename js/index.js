@@ -59,3 +59,19 @@ function backTotext(){
     // document.getElementById("contact-submit").style.color="white";
   }, 5000)
 }
+
+function branch1(){
+  document.getElementById("branch1").style.display="flex";
+  document.getElementById("branch2").style.display="none";
+  document.getElementById("branch3").style.display="none";
+}
+function branch2(){
+  document.getElementById("branch2").style.display="flex";
+  document.getElementById("branch1").style.display="none";
+  document.getElementById("branch3").style.display="none";
+}
+function branch3(){
+  document.getElementById("branch3").style.display="flex";
+  document.getElementById("branch1").style.display="none";
+  document.getElementById("branch2").style.display="none";
+}
