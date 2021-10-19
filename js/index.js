@@ -61,17 +61,17 @@ function backTotext(){
 }
 
 function branch1(){
-  document.getElementById("branch1").style.display="flex";
-  document.getElementById("branch2").style.display="none";
-  document.getElementById("branch3").style.display="none";
+  document.getElementById("branch_des1").style.display="flex";
+  document.getElementById("branch_des2").style.display="none";
+  document.getElementById("branch_des3").style.display="none";
 }
 function branch2(){
-  document.getElementById("branch2").style.display="flex";
-  document.getElementById("branch1").style.display="none";
-  document.getElementById("branch3").style.display="none";
+  document.getElementById("branch_des2").style.display="flex";
+  document.getElementById("branch_des1").style.display="none";
+  document.getElementById("branch_des3").style.display="none";
 }
 function branch3(){
-  document.getElementById("branch3").style.display="flex";
-  document.getElementById("branch1").style.display="none";
-  document.getElementById("branch2").style.display="none";
+  document.getElementById("branch_des3").style.display="flex";
+  document.getElementById("branch_des1").style.display="none";
+  document.getElementById("branch_des2").style.display="none";
 }

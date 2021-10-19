@@ -294,7 +294,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: space-evenly;
   align-items: center;
 }
-#branch1, #branch2, #branch3{
+#branch_des1, #branch_des2, #branch_des3{
   display: none;
   justify-content: space-evenly;
 }
