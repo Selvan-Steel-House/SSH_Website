@@ -75,3 +75,9 @@ function branch3(){
   document.getElementById("branch_des1").style.display="none";
   document.getElementById("branch_des2").style.display="none";
 }
+
+function close_des(){
+  document.getElementById("branch_des3").style.display="none";
+  document.getElementById("branch_des1").style.display="none";
+  document.getElementById("branch_des2").style.display="none";
+}
