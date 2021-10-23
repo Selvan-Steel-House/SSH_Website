@@ -21,7 +21,7 @@ function sendNotification() {
     document.getElementById("notify").innerHTML = "Subscribing..."
     var json =
     {
-      'email': email
+      email: email
     };
 
     var xhttp = new XMLHttpRequest();
