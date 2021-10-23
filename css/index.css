@@ -181,6 +181,9 @@ body::-webkit-scrollbar-thumb {
     display: flex !important;
     flex-direction: column !important;
   }
+  #exploremore_but1 , #exploremore_but2, #exploremore_but3{
+    display: none;
+  }
 }
 
 
