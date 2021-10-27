@@ -184,6 +184,15 @@ body::-webkit-scrollbar-thumb {
   #exploremore_but1 , #exploremore_but2, #exploremore_but3{
     display: none;
   }
+  .our_branches{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card{
+    margin-bottom: 15px !important;
+  }
 }
 
 
@@ -310,3 +319,21 @@ body::-webkit-scrollbar-thumb {
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='10' height='10' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e") !important;
 }
+
+.carousel-indicatorzz li{
+  visibility: hidden !important;
+}
+
+.our_branches{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#know_more_img{
+  border: 1px solid white;
+  border-radius: 35px;
+}
+
+
+
