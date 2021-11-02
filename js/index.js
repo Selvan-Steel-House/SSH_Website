@@ -33,7 +33,7 @@ function sendNotification() {
       document.getElementById("email").value = "";
     };
 
-    xhttp.open("POST", "http://ec2-13-127-191-145.ap-south-1.compute.amazonaws.com:3000/v1/api/website/general/subscribeuser", true);
+    xhttp.open("POST", "https://dev.api.selvansteelhouse.in/v1/api/website/general/subscribeuser", true);
     xhttp.setRequestHeader("Content-type", "application/json");
     xhttp.send(JSON.stringify(json));
   }
