@@ -30,6 +30,10 @@ function sendNotification() {
         document.getElementById("notify").innerHTML = "Thank you :) ";
         backTotext();
       }
+      else{
+        alert("Something went wrong. Please try again later.");
+        document.getElementById("notify").innerHTML = "Subscribe"
+      }
       document.getElementById("email").value = "";
     };
 
