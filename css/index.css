@@ -440,8 +440,8 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 16px;
 }
 .media-num{
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
 }
 
 
