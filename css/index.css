@@ -435,5 +435,13 @@ body::-webkit-scrollbar-thumb {
   border-radius: 35px;
 }
 
+.call-us-text{
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.media-num{
+  display: flex;
+  align-items: center;
+}
 
 
