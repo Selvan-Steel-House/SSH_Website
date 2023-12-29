@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About : Selvan Steel House</title>
+  <title>Products : Selvan Steel House</title>
   <link rel="icon" href="../images/logo.png" />
   <link rel="stylesheet" href="../css/index.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -32,7 +32,7 @@
   </div>
 
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 mx-2">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 mx-5">
     <a class="navbar-brand" href="#">
       <img src="../images/selvan_crop.jpg" width="200" height="70" alt="Selvan Steel House Logo" />
     </a>
@@ -46,11 +46,20 @@
         <li class="nav-item">
           <a class="nav-link" href="../index.html">Home</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="products.html">Products</a>
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#branch1">Home Appliances</a>
+            <a class="dropdown-item" href="#branch2">Kitchen Appliances</a>
+            <a class="dropdown-item" href="#branch3">Utensils</a>
+            <a class="dropdown-item" href="#branch4">Plasticware & Glassware</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Gallery.html">Gallery</a>
@@ -83,66 +92,139 @@
   <!-- ScroolToTop -->
   <div class="scrollToTop" onclick="scrollToTop()"></div>
 
-
-  <!-- Timeline -->
-  <div class="container">
-    <br>
-    <h4>Selvan Steel House</h4>
-    <div class="ptext">Get yourself lost in the world of brands at affordable and lowest prices . Choose from a wide
-      range
-      of kitchen and home appliances from top brands . With 40+ years of serving customers , we continue our tradition
-      with your support. in Nehru Bazaar , Avadi . Our business is mainly focused on House hold utensils like,
-      Eversilver and Aluminium vessels, Hindalium vessels , Brass and Copper vessels , Kitchen Appliances, Home
-      appliances and all types of Furniture. We are also dealing with Plastic and Glassware , gift items .
-      We at Selvan Steel House , are committed not only in providing quality products , but have also understood
-      customer’s needs and that is why we have various chit schemes according to your budget and benefits. We also take
-      bulk orders .
-      Our services are extended digitally via an android application where customers can have their purchase details
-      entered in it for tracking .
-      <hr><br><br>
-
-      <div class="container">
-        <div class="timeline bg-dark">
-          <h1 class="text-warning">Our Timeline</h1>
-          <div class="timeline-row">
-            <div class="timeline-time">
-              1980
-            </div>
-            <div class="timeline-content">
-              <h3>Selvan Steel House</h3>
-              <img src="../images/store2.jpg" class="card-img-top" height="300" width="300"
-                alt="Selvan Steel House - Branch 2" />
-            </div>
-          </div>
-
-          <div class="timeline-row">
-            <div class="timeline-time">
-              2014
-            </div>
-            <div class="timeline-content">
-              <h3>Selvan Steel House</h3>
-              <p>Electronics & Furnitures</p>
-              <img src="../images/store1.jpeg" class="card-img-top" height="300" width="300"
-                alt="Selvan Steel House - Branch 2" />
-            </div>
-          </div>
-
-          <div class="timeline-row">
-            <div class="timeline-time">
-              2022
-            </div>
-            <div class="timeline-content">
-              <h3>Selvan Steel House</h3>
-              <p>Electronics & Furnitures</p>
-              <img src="../images/Branch2.JPG" class="card-img-top" height="300" width="300"
-                alt="Selvan Steel House - Branch 2" />
-            </div>
-          </div>
-
-        </div>
+  <!-- Opening Banner Image -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/service_carousel.png" class="d-block w-100" alt="Selvan Steel House - Products Banner">
       </div>
     </div>
   </div>
+
+  <!-- Buttons -->
+  <div class="container p-4 buttons">
+    <a href="#branch1" class="btn btn-outline-warning btn-lg m-1 text-dark departments">Home Appliances</a>
+    <a href="#branch2" class="btn btn-outline-warning btn-lg m-1 text-dark departments">Kitchen Appliances</a>
+    <a href="#branch3" class="btn btn-outline-warning btn-lg m-1 text-dark departments">Utensils</a>
+    <a href="#branch4" class="btn btn-outline-warning btn-lg m-1 text-dark departments">Plasticware & Glassware</a>
+    <a href="#branch5" class="btn btn-outline-warning btn-lg m-1 text-dark departments">Furnitures</a>
+    <a href="#branch6" class="btn btn-outline-warning btn-lg m-1 text-dark departments">Mobiles & Smart watches</a>
+  </div>
+
+
+  <!-- Branch Address and Contact -->
+  <div class="container" id="branch1">
+    <div class="branchImage">
+      <img src="../images/SSH_Home.jpeg" width="100%" height="100%" alt="Home Appliances - Selvan Steel House" />
+    </div>
+    <div class="branchAddress p-5">
+      <h4 class="text-center">Home Appliances</h4>
+      <p>With a wide variety of international brands and tons of products to choose from , we offer you with a wide
+        collection of home appliances at best prices without any compromise in quality . With customer friendly and
+        experienced staffs , we are ready to serve you with delight .</p>
+      <ul>
+        <li>Fridge</li>
+        <li>Washing Machine</li>
+        <li>TV</li>
+        <li>Air Conditioner</li>
+        <li>Home cinema and lots more</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container" id="branch2">
+    <div class="branchAddress p-5 r">
+      <h4 class="text-center">Kitchen Appliances</h4>
+      <p>Our kitchen appliances catalogue has 200+ kitchen appliances and more than 15 brands to choose from . You can
+        choose the best appliance which fits your choice and your Kitchen ambience . Decorate your kitchen and home with
+        our Kitchen appliances.</p>
+      <ul>
+        <li>Mixer Grinder</li>
+        <li>Gas stove</li>
+        <li>Tawa</li>
+        <li>Air fryer</li>
+        <li>Coffee maker and lots more</li>
+      </ul>
+    </div>
+    <div class="branchImage">
+      <img src="../images/SSH_Kitchen.jpeg" width="100%" height="100%" alt="Kitchen Appliances - Selvan Steel House" />
+    </div>
+  </div>
+  <div class="container" id="branch3">
+    <div class="branchImage">
+      <img src="../images/SSH_Utensils.jpeg" width="100%" height="100%" alt="Utensils - Selvan Steel House" />
+    </div>
+    <div class="branchAddress p-5">
+      <h4 class="text-center">Utensils</h4>
+      <p>Try our widest range of best quality utensils at lowest prices . We continue to serve you happily by updating
+        our collections regularly .
+        We take bulk orders and provide after sales support . Our best in class service technicians provide service of
+        few kitchen appliances at our store. We also take bulk and festive orders.
+        Enjoy the best and top notch utensils at Selvan Steel House.</p>
+      <ul>
+        <li>Silver and Aluminium utensils</li>
+        <li>Copper bottom vessels and water bottles</li>
+        <li>Brass items</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container" id="branch4">
+    <div class="branchAddress p-5 r">
+      <h4 class="text-center">Plasticware and Glassware</h4>
+      <p>Our plasticware collection is huge ranging from stationary items to toys , plastic kitchenwares , lunchboxes,
+        water bottles and what not. Glassware includes products that can be used for different utilities . Like
+        microwave cookery , water glasses, bowls etc.</p>
+      <ul>
+        <li>Microwave utensils</li>
+        <li>Plastic water bottles and washing machine covers</li>
+        <li>Kitchen utilities</li>
+        <li>Glass bowls and glasses</li>
+      </ul>
+    </div>
+    <div class="branchImage">
+      <img src="../images/SSH_Plastic.jpeg" width="100%" height="100%"
+        alt="Plasticware and Glassware - Selvan Steel House" />
+    </div>
+  </div>
+  <div class="container" id="branch5">
+    <div class="branchImage">
+      <img src="../images/furnitures.png" width="100%" height="100%" alt="furnitures - Selvan Steel House" />
+    </div>
+    <div class="branchAddress p-5 r">
+      <h4 class="text-center">Furnitures</h4>
+      <p>We have a wide range of furniture like cot , mattress , bureau , side tables , chairs , sofas etc . that suits
+        all
+        houses . We even provide options for customising selective products according to your wish . With offers round
+        the year
+        , we are your one stop for a complete home furnishing solution . All of these without compromising quality and
+        trust .</p>
+      <ul>
+        <li>Cupboards</li>
+        <li>Sofa sets</li>
+        <li>Utility tables</li>
+        <li>Cot & Mattress</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container" id="branch6">
+    <div class="branchAddress p-5 r">
+      <h4 class="text-center">Mobiles & Smart watches</h4>
+      <p>We have included a new section under Selvan Home Appliances for mobiles with some freebies* for selective
+        models . Our
+        collection includes button phones , smartphones , accessories from all ranges across all leading brands . And we
+        continue to follow our tradition of lowest prices for mobiles as well . Along with mobiles , we have leading
+        brand
+        fitness & smartwatches as well .</p>
+      <ul>
+        <li>Feature phones</li>
+        <li>Smart phones</li>
+        <li>Smart watches</li>
+      </ul>
+    </div>
+    <div class="branchImage">
+      <img src="../images/SSH_mobiles.png" width="100%" height="100%" alt="Mobiles - Selvan Steel House" />
+    </div>
+  </div>
+
 
   <!-- Footer -->
   <footer class="text-center text-lg-start bg-white text-muted mt-5">
@@ -165,6 +247,7 @@
         </div>
       </div>
     </section>
+
 
     <!-- Section: Links  -->
     <section>
@@ -194,7 +277,7 @@
           <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold mb-4">Information</h6>
             <p><a href="../index.html" class="text-reset">Home</a></p>
-            <p><a href="#" class="text-reset">About</a></p>
+            <p><a href="about.html" class="text-reset">About</a></p>
             <p><a href="Gallery.html" class="text-reset">Gallery</a></p>
             <p><a href="contact.html#branch1" class="text-reset">Branches</a></p>
           </div>
@@ -216,8 +299,6 @@
       <a class="text-reset">Selvan Steel House</a>
     </div>
   </footer>
-
-
 
   <!-- External Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

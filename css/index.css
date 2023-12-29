@@ -158,10 +158,10 @@ body::-webkit-scrollbar-thumb {
   #text_section{
     flex-direction: column;
   }
-  #branch1, #branch3{
+  #branch1, #branch3, #branch5{
     flex-direction: column !important;
   }
-  #branch2, #branch4{
+  #branch2, #branch4, #branch6{
     flex-direction: column-reverse !important;
   }
   .buttons{
@@ -364,12 +364,12 @@ body::-webkit-scrollbar-thumb {
 
 
 /* Branch Address - Contact */
-#branch1, #branch2, #branch3, #branch4{
+#branch1, #branch2, #branch3, #branch4, #branch5, #branch6{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 24px;
 }
 
 .branchAddress{
@@ -443,6 +443,15 @@ body::-webkit-scrollbar-thumb {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+}
+
+.departments{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
 }
 
 
