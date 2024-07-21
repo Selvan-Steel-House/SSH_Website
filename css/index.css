@@ -149,9 +149,15 @@ body::-webkit-scrollbar-thumb {
 .ptext{
   text-align: justify;
 }
+.mnav {
+  margin: 0px 24px !important;
+}
 
 /* Media Query */
 @media only screen and (max-width: 600px) {
+  .mnav{
+    margin: 0px 16px !important;
+  }
   #announcement_id {
    display: none;
   }
@@ -192,8 +198,30 @@ body::-webkit-scrollbar-thumb {
   }
   .card{
     margin-bottom: 15px !important;
+    width: 100%;
+  }
+
+  .branchImage{
+    text-align: center;
+    margin-bottom: 24px;
   }
 }
+
+.card {
+  margin-bottom: 15px !important;
+  min-width: 365px;
+  min-height: 485px;
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+
+.card-img-top{
+  max-width: 365px;
+  max-height: 235px;
+  object-fit: contain;
+  aspect-ratio: 1;
+}
+
 
 /* About Us Timeline */
 .timeline {
@@ -374,6 +402,14 @@ body::-webkit-scrollbar-thumb {
 
 .branchAddress{
   text-align: justify;
+  border-radius: 16px;
+}
+
+.branchImage {
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 500px;
+  margin: 3rem;
 }
 
 .buttons{
@@ -405,6 +441,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-radius: 16px;
 }
 #branch_des1, #branch_des2, #branch_des3{
   display: none;
@@ -426,8 +463,9 @@ body::-webkit-scrollbar-thumb {
 
 .our_branches{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 16px;
 }
 
 #know_more_img{
